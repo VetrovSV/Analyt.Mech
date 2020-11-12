@@ -1,0 +1,13 @@
+p.status_message {
+  text-align: left;
+  display: none;
+  font-weight: bold;
+}
+
+p.unsuccess {
+  color: red;
+}
+
+p.success {
+  color: green;
+}

@@ -1,0 +1,1075 @@
+<html><head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <link rel="stylesheet" type="text/css" href="index.php_files/show_test.css">
+            <script type="text/javascript" src="index.php_files/jquery-1.js"></script>
+            <script type="text/javascript" src="index.php_files/show_test.js"></script>
+            <script type="text/javascript" src="index.php_files/jquery.js"></script>
+
+            <style>
+                body {
+                    width: 800px;
+                }
+                .sn-table p{
+                    padding:0 5px;
+                }
+                #sn{
+                    display: none;
+                }
+            </style>
+        </head>
+        <body tcap-name="mainman">
+
+        <div id="sn">
+            <img alt="-" src="index.php_files/cross.gif" style="display:inline-block;">
+            <p style="display:inline-block;"><strong style="color:red;">ЗАДАНИЕ</strong> - задание студентом не выполнено или выполнено неверно</p><br>
+            <div style="margin-top:-25px;">
+                <img alt="+" src="index.php_files/tick.gif" style="display:inline-block;">
+                <p style="display:inline-block;"><strong style="color:green;">ЗАДАНИЕ</strong> - задание студентом выполнено правильно</p>
+            </div>
+
+            <p>Зелёным цветом выделены правильные варианты ответов, заложенные разработчиками</p>
+            <table class="sn-table" border="1">
+                <tbody><tr>
+                    <td style="width:30px; text-align:center;"><img alt="+" src="index.php_files/tick.gif" style="display:inline-block;"></td>
+                    <td><p>- задание с выбором одного правильного ответа из предложенных</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30px; text-align:center;"><img alt="+" src="index.php_files/tick.gif" style="display:inline-block;"><br><img alt="+" src="index.php_files/tick.gif" style="display:inline-block;"></td>
+                    <td><p>- задание с выбором нескольких правильных ответов из предложенных</p></td>
+                </tr>
+
+                <tr>
+                    <td style="width:30px; text-align:center">
+                       <b>
+                       <span style="color:green;">1</span><br>
+                       <span style="color:green;">2</span><br>
+                       <span style="color:green;">3</span><br>
+                       </b>
+                    </td>
+                    <td><p>- задания на установление правильной последовательности или сответствия</p></td>
+                </tr>
+
+                <tr>
+                    <td style="width:30px; text-align:center;"><p style="color:green;">123</p></td>
+                    <td><p>- задание с кратким ответом</p></td>
+                </tr>
+            </tbody></table>
+
+            <p>Чёрным цветом выделены варианты ответов, выбранные студентом</p>
+            <table class="sn-table" border="1">
+                <tbody><tr>
+                    <td style="width:30px; text-align:center;"><input type="image" alt="+" style="vertical-align: middle;" src="index.php_files/radio2.gif"></td>
+                    <td><p>- задание с выбором одного правильного ответа из предложенных</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30px; text-align:center;"><input type="image" alt="+" style="vertical-align: middle;" src="index.php_files/check2.gif"><input type="image" alt="+" style="vertical-align: middle;" src="index.php_files/check2.gif"></td>
+                    <td><p>- задание с выбором нескольких правильных ответов из предложенных</p></td>
+                </tr>
+
+                <tr>
+                    <td style="width:30px; text-align:center">
+                      <input type="image" src="index.php_files/order_1.gif" style="vertical-align: middle;" alt="1">
+                      <input type="image" src="index.php_files/order_2.gif" style="vertical-align: middle;" alt="1">
+                      <input type="image" src="index.php_files/order_3.gif" style="vertical-align: middle;" alt="1">
+                    </td>
+                    <td><p>- задания на установление правильной последовательности или сответствия</p></td>
+                </tr>
+                <tr>
+                    <td style="width:30px; text-align:center;"><strong style="color:black;">123</strong></td>
+                    <td><p>- задание с кратким ответом</p></td>
+                </tr>
+            </tbody></table>
+        </div>
+        <hr><br><style>
+    .hidden {display: none;}
+</style>
+
+
+
+<script>
+    var loaded = {};
+
+    function onAllInteractiveLoaded() {
+        var interactive;
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    }
+
+    window.onInteractiveLoaded = function () {
+        loaded[this.location.href] = true;
+        if (Object.keys(loaded).length === +document.getElementById('interactiveCount').value) {
+            window.onInteractiveLoaded = undefined;
+            onAllInteractiveLoaded();
+        }
+    };
+</script>
+
+
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 1</b>
+    
+        
+            <a id="report_message_3122399" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122399" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122399">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122399"></p>
+    <div id="task_41860897_3122399">
+        <img src="index.php_files/cd2a5003d399c30e336474ae69099e7d.png" alt="ЗАДАНИЕ N 1">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 2</b>
+    
+        
+            <a id="report_message_3122401" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122401" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122401">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122401"></p>
+    <div id="task_41860897_3122401">
+        <img src="index.php_files/54fca5ac7e15baf4a0e32c12b55ee019.png" alt="ЗАДАНИЕ N 2">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 3</b>
+    
+        
+            <a id="report_message_3122403" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122403" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122403">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122403"></p>
+    <div id="task_41860897_3122403">
+        <img src="index.php_files/97d1322cc964992c845d4844018f093b.png" alt="ЗАДАНИЕ N 3">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 4</b>
+    
+        
+            <a id="report_message_3122409" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122409" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122409">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122409"></p>
+    <div id="task_41860897_3122409">
+        <img src="index.php_files/b0e48d3c0bbaff43b038e813ee39292c.png" alt="ЗАДАНИЕ N 4">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 5</b>
+    
+        
+            <a id="report_message_3122412" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122412" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122412">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122412"></p>
+    <div id="task_41860897_3122412">
+        <img src="index.php_files/2564a8cc50bbd4d8e1fc22ff08123ac2.png" alt="ЗАДАНИЕ N 5">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 6</b>
+    
+        
+            <a id="report_message_3122413" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122413" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122413">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122413"></p>
+    <div id="task_41860897_3122413">
+        <img src="index.php_files/1d22e8893b1a654f7e05a287629f9416.png" alt="ЗАДАНИЕ N 6">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 7</b>
+    
+        
+            <a id="report_message_3122417" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122417" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122417">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122417"></p>
+    <div id="task_41860897_3122417">
+        <img src="index.php_files/5e413ef66b0c1f485965bda906586a99.png" alt="ЗАДАНИЕ N 7">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 8</b>
+    
+        
+            <a id="report_message_3122420" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122420" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122420">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122420"></p>
+    <div id="task_41860897_3122420">
+        <img src="index.php_files/b35b0420b56a5d671ad405e62124ad49.png" alt="ЗАДАНИЕ N 8">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 9</b>
+    
+        
+            <a id="report_message_3122426" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122426" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122426">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122426"></p>
+    <div id="task_41860897_3122426">
+        <img src="index.php_files/fbf53fea50f57c60fdbbb499260b565c.png" alt="ЗАДАНИЕ N 9">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 10</b>
+    
+        
+            <a id="report_message_3122429" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122429" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122429">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122429"></p>
+    <div id="task_41860897_3122429">
+        <img src="index.php_files/acad06014f7804550b33d79aafc90248.png" alt="ЗАДАНИЕ N 10">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 11</b>
+    
+        
+            <a id="report_message_3122431" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122431" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122431">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122431"></p>
+    <div id="task_41860897_3122431">
+        <img src="index.php_files/acfd152a4c0370265670278a3d883c69.png" alt="ЗАДАНИЕ N 11">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 12</b>
+    
+        
+            <a id="report_message_3122434" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122434" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122434">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122434"></p>
+    <div id="task_41860897_3122434">
+        <img src="index.php_files/df3b0646f5ca72fcc33bea0158e2ee21.png" alt="ЗАДАНИЕ N 12">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 13</b>
+    
+        
+            <a id="report_message_3122437" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122437" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122437">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122437"></p>
+    <div id="task_41860897_3122437">
+        <img src="index.php_files/c14e1b82ac2819ee89bdac9619270167.png" alt="ЗАДАНИЕ N 13">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 14</b>
+    
+        
+            <a id="report_message_3122454" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122454" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122454">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122454"></p>
+    <div id="task_41860897_3122454">
+        <img src="index.php_files/0a64a6577301ab85c6d13d202e02f0ad.png" alt="ЗАДАНИЕ N 14">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 15</b>
+    
+        
+            <a id="report_message_3910915" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3910915" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3910915">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3910915"></p>
+    <div id="task_41860897_3910915">
+        <img src="index.php_files/a2e921074ed2c659848aa8a9f0bfd832.png" alt="ЗАДАНИЕ N 15">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 16</b>
+    
+        
+            <a id="report_message_3122489" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122489" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122489">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122489"></p>
+    <div id="task_41860897_3122489">
+        <img src="index.php_files/980e5902a55616090b7d8e1d44634eb0.png" alt="ЗАДАНИЕ N 16">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 17</b>
+    
+        
+            <a id="report_message_3122491" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122491" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122491">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122491"></p>
+    <div id="task_41860897_3122491">
+        <img src="index.php_files/9c9d54cf32eec05a398e78b72e4b571b.png" alt="ЗАДАНИЕ N 17">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 18</b>
+    
+        
+            <a id="report_message_3122495" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122495" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122495">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122495"></p>
+    <div id="task_41860897_3122495">
+        <img src="index.php_files/899fd601fc409fffd2d7a77b85e9cea7.png" alt="ЗАДАНИЕ N 18">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 19</b>
+    
+        
+            <a id="report_message_3122498" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122498" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122498">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122498"></p>
+    <div id="task_41860897_3122498">
+        <img src="index.php_files/b56edbed75a29835528953c1d6b54f6a.png" alt="ЗАДАНИЕ N 19">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 20</b>
+    
+        
+            <a id="report_message_3122501" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122501" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122501">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122501"></p>
+    <div id="task_41860897_3122501">
+        <img src="index.php_files/319c2ac66d0877b9592b0fd4a8ed5d73.png" alt="ЗАДАНИЕ N 20">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 21</b>
+    
+        
+            <a id="report_message_3122510" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122510" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122510">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122510"></p>
+    <div id="task_41860897_3122510">
+        <img src="index.php_files/9d21cd84dfc8dbbfadf0d8923d93aac5.png" alt="ЗАДАНИЕ N 21">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 22</b>
+    
+        
+            <a id="report_message_3122514" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122514" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122514">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122514"></p>
+    <div id="task_41860897_3122514">
+        <img src="index.php_files/f7265662a4de3142893ea538a38dc351.png" alt="ЗАДАНИЕ N 22">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 23</b>
+    
+        
+            <a id="report_message_3122517" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122517" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122517">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122517"></p>
+    <div id="task_41860897_3122517">
+        <img src="index.php_files/bde51c34a61850bd659657b75941a4f3.png" alt="ЗАДАНИЕ N 23">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 24</b>
+    
+        
+            <a id="report_message_3122520" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122520" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122520">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122520"></p>
+    <div id="task_41860897_3122520">
+        <img src="index.php_files/ccafcfe1c7b3196a38c8fe5eb2c2b7e0.png" alt="ЗАДАНИЕ N 24">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 25</b>
+    
+        
+            <a id="report_message_3122523" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122523" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122523">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122523"></p>
+    <div id="task_41860897_3122523">
+        <img src="index.php_files/ba220511d65ea8f85aac845f408a64ca.png" alt="ЗАДАНИЕ N 25">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 26</b>
+    
+        
+            <a id="report_message_4682604" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_4682604" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="4682604">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_4682604"></p>
+    <div id="task_41860897_4682604">
+        <img src="index.php_files/64cb74e12213f340dcb99ae4915b410c.png" alt="ЗАДАНИЕ N 26">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 27</b>
+    
+        
+            <a id="report_message_3122534" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122534" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122534">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122534"></p>
+    <div id="task_41860897_3122534">
+        <img src="index.php_files/b0a68703b79b64d750bdad91adbe0de6.png" alt="ЗАДАНИЕ N 27">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 28</b>
+    
+        
+            <a id="report_message_3122538" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122538" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122538">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122538"></p>
+    <div id="task_41860897_3122538">
+        <img src="index.php_files/f93f3f2b5c96dacefc6824af1f2ef5b9.png" alt="ЗАДАНИЕ N 28">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 29</b>
+    
+        
+            <a id="report_message_3122541" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122541" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122541">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122541"></p>
+    <div id="task_41860897_3122541">
+        <img src="index.php_files/ae1bf7024e95056b2fa2e2b6b3ca3c97.png" alt="ЗАДАНИЕ N 29">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 30</b>
+    
+        
+            <a id="report_message_3122544" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122544" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122544">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122544"></p>
+    <div id="task_41860897_3122544">
+        <img src="index.php_files/4fee57fd576a56f020e84e364f47076f.png" alt="ЗАДАНИЕ N 30">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/tick.gif" alt="+">&nbsp;<b style="color:green">ЗАДАНИЕ N 31</b>
+    
+        
+            <a id="report_message_3122548" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3122548" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3122548">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3122548"></p>
+    <div id="task_41860897_3122548">
+        <img src="index.php_files/45d96bc7e8f0e1bd32f07570fd1d0ae3.png" alt="ЗАДАНИЕ N 31">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 32</b>
+    
+        
+            <a id="report_message_3494769" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494769" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494769">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494769"></p>
+    <div id="task_41860897_3494769">
+        <img src="index.php_files/7f17cdece2dcbe4c5e7dac28f7781bac.png" alt="ЗАДАНИЕ N 32">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 33</b>
+    
+        
+            <a id="report_message_3494772" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494772" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494772">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494772"></p>
+    <div id="task_41860897_3494772">
+        <img src="index.php_files/ae8c283cee5f9d5e232f5d4aca8669ab.png" alt="ЗАДАНИЕ N 33">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 34</b>
+    
+        
+            <a id="report_message_3494775" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494775" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494775">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494775"></p>
+    <div id="task_41860897_3494775">
+        <img src="index.php_files/265f3490a078fc294a3aefcbf1cf885f.png" alt="ЗАДАНИЕ N 34">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 35</b>
+    
+        
+            <a id="report_message_3494779" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494779" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494779">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494779"></p>
+    <div id="task_41860897_3494779">
+        <img src="index.php_files/268d04c7154720db624cf1ad619af393.png" alt="ЗАДАНИЕ N 35">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 36</b>
+    
+        
+            <a id="report_message_3494782" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494782" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494782">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494782"></p>
+    <div id="task_41860897_3494782">
+        <img src="index.php_files/00326bb677e937c429d6393c7e6292d0.png" alt="ЗАДАНИЕ N 36">
+    </div>
+<br><hr><br>
+    
+            <img src="index.php_files/cross.gif" alt="-">&nbsp;<b style="color:red"> ЗАДАНИЕ N 37</b>
+    
+        
+            <a id="report_message_3494892" href="javascript:void(0);">отправить сообщение разработчикам</a>
+        <br>
+    <div id="error_area_3494892" style="display:none">
+        <br>
+        <div style="border:1px dashed red; padding:10px; width: 350px; text-align:center">
+        <form method="post">
+          <input type="hidden" name="taskid" value="3494892">
+          <input type="hidden" name="fioid" value="41860897">
+          <textarea rows="7" cols="40" name="message"></textarea><br><br>
+          <p>Укажите e-mail для обратной связи:</p>
+          <input type="text" name="email"><br><br>
+          <input type="button" name="cancel" value="Отмена">
+          <input type="button" name="send_message" value="Отправить сообщение">
+        </form>
+        </div>
+        <br>
+    </div>
+    <p class="status_message" id="status_message_3494892"></p>
+    <div id="task_41860897_3494892">
+        <img src="index.php_files/392dfbc557f2f65f18e2d24aa5b8327c.png" alt="ЗАДАНИЕ N 37">
+    </div>
+<br><hr><br>
+<input type="hidden" id="interactiveCount" value="0">
+
+
+    
+    
+    </body></html>
